@@ -8,8 +8,8 @@ const Skills = () => {
       <Container fluid>
         <Container>
           <Row>
-            <Col className="banner-side">
-              <div>
+            <Col className="banneres mx-4">
+              <div className=" m-3 alignment">
                 <h3>Front End</h3>
                 <h6>HTML</h6>
                 <h6>HTML5</h6>
@@ -20,8 +20,8 @@ const Skills = () => {
                 <h6>JavaScript</h6>
               </div>
             </Col>
-            <Col className="banner-side">
-              <div>
+            <Col className="banneres mx-4">
+              <div className=" m-3 alignment">
                 <h3>UI Frameworks</h3>
                 <h6>Bootstrap5</h6>
                 <h6>Material-UI</h6>
@@ -31,13 +31,15 @@ const Skills = () => {
                 <h6>Express.js</h6>
               </div>
             </Col>
-            <Col className="banner-side">
-              <h3>Hosting Platform</h3>
-              <h6>Netlify</h6>
-              <h6>Firebase</h6>
-              <h6>Heroku</h6>
-              <h3>Database</h3>
-              <h6>Mongodb</h6>
+            <Col className="banneres mx-4">
+              <div className=" m-3 alignment">
+                <h3>Hosting Platform</h3>
+                <h6>Netlify</h6>
+                <h6>Firebase</h6>
+                <h6>Heroku</h6>
+                <h3>Database</h3>
+                <h6>Mongodb</h6>
+              </div>
             </Col>
           </Row>
         </Container>

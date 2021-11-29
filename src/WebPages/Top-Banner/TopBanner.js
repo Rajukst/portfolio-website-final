@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import "./TopBanner.css";
 import bannerImage from "../../Images/banner.png";
+import { Link } from "react-router-dom";
 const TopBanner = () => {
   return (
     <div className="top-banner">
@@ -13,7 +14,13 @@ const TopBanner = () => {
                 <h3>Wellcome to my Profile</h3>
                 <h1>Hi, I'm Raju Ahammed Roton</h1>
                 <h2>I'm a Professional Web Developer</h2>
-                <a href="https://drive.google.com/file/d/1-jFkUED-6vp3cu7xCvMe5yyykxz9dksS/view?usp=sharing">
+
+                <a
+                  className="very-important"
+                  href="https://drive.google.com/file/d/1-jFkUED-6vp3cu7xCvMe5yyykxz9dksS/view?usp=sharing"
+                  target="_blank"
+                >
+                  {" "}
                   <Button className="mt-5">Download Resume</Button>
                 </a>
               </div>

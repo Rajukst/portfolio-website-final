@@ -2,3 +2,10 @@
     background-color: black;
     color: white;
 }
+.banneres{
+    box-shadow: 5px 5px 5px rgb(161, 139, 139);
+    border-radius: 30px;
+}
+.alignment{
+    text-align: left;
+}
