@@ -19,4 +19,8 @@
 .my-dark {
     background-color: black;
     color: white; 
+    border-radius: 25px;
+}
+.social-response{
+    text-align: left;
 }

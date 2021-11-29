@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./Skills.css";
 const Skills = () => {
   return (
-    <div className="skills-main">
+    <div id="skills" className="skills-main">
       <h1 className="mb-5">Skill Highlights</h1>
       <Container fluid>
         <Container>

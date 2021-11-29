@@ -2,7 +2,6 @@ import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import "./TopBanner.css";
 import bannerImage from "../../Images/banner.png";
-import { Link } from "react-router-dom";
 const TopBanner = () => {
   return (
     <div className="top-banner">

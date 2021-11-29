@@ -25,18 +25,18 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div className="contact-main pt-5">
-      <Container>
+    <div id="contact" className="contact-main pt-5">
+      <Container className="mt-5">
         <Row>
-          <Col xs={12} md={4} lg={4} className="banner-side pe-5">
-            <div>
-              <h1>Quick Response</h1>
-              <h4>Not Interested submit form? I am also Avaiable here.</h4>
+          <Col xs={12} md={4} lg={4} className="side pe-5">
+            <div className="social-response">
+              <h1>Social Response</h1>
+              <h6>Not Interested submit form? I am also Avaiable here.</h6>
               <p>rajuahamedkst15@gmail.com</p>
               <p>rajuahamedkst13@gmail.com</p>
             </div>
           </Col>
-          <Col xs={12} md={8} lg={8} className="banner-side px-3">
+          <Col xs={12} md={8} lg={8} className="side px-3">
             <Form onSubmit={hanldeOnSubmit} className="my-form">
               <div className="form-div">
                 <label for="fname">Your Name:</label>

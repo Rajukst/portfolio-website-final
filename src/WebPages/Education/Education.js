@@ -4,7 +4,7 @@ import eduPic from "../../Images/Education/education.png";
 import "./Education.css";
 const Education = () => {
   return (
-    <div className="main-education">
+    <div id="about" className="main-education">
       <h1 className="p-5">Personal & Educational Information</h1>
       <Container>
         <Row>
@@ -23,16 +23,16 @@ const Education = () => {
               </p>
               <hr />
               <h3>Personal Info</h3>
-              <h4>Name: Raju Ahammed Roton</h4>
-              <h5>
+              <h6>Name: Raju Ahammed Roton</h6>
+              <h6>
                 Address: 125, Anwar Yousuf Road, Barkhada, Kushtia, Bangladesh
-              </h5>
-              <h5>Contact: +8801765629262</h5>
+              </h6>
+              <h6>Contact: +8801765629262</h6>
               <h3>Educational Background</h3>
-              <h5>
+              <h6>
                 Bachelor of Social Science in Sociology, National University,
                 Bangladesh
-              </h5>
+              </h6>
             </div>
           </Col>
         </Row>

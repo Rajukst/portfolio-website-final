@@ -6,7 +6,7 @@ import project2 from "../../Images/Project-Image/project2.png";
 import project3 from "../../Images/Project-Image/project3.png";
 const Project = () => {
   return (
-    <div className="project-main">
+    <div id="projects" className="project-main">
       <h1 className="p-5">Here are some Projects performed by me</h1>
       <Container fluid>
         <Row>
