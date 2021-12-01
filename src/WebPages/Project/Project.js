@@ -8,7 +8,7 @@ const Project = () => {
   return (
     <div id="projects" className="project-main">
       <h1 className="p-5">Here are some Projects performed by me</h1>
-      <Container fluid>
+      <Container>
         <Row>
           <Col xs={12} md={6} lg={4} className="project-side">
             <div className="m-2 project">
@@ -21,7 +21,10 @@ const Project = () => {
               </div>
               <h4>Project name: Modhurima WoodCraft</h4>
               <p>Project Details: Modhurima WoodCraft</p>
-              <Button>See Details</Button>
+              <div className="link-att">
+                <Button>Github Link</Button>
+                <Button>Live Link</Button>
+              </div>
             </div>
           </Col>
           <Col xs={12} md={6} lg={4} className="project-side">
@@ -35,7 +38,10 @@ const Project = () => {
               </div>
               <h4>Project name: Adventure Tourist Agency</h4>
               <p>Project Details: Adventure</p>
-              <Button>See Details</Button>
+              <div className="link-att">
+                <Button>Github Link</Button>
+                <Button>Live Link</Button>
+              </div>
             </div>
           </Col>
           <Col xs={12} md={6} lg={4} className="project-side">
@@ -47,9 +53,12 @@ const Project = () => {
                   alt="Girl in a jacket"
                 />
               </div>
-              <h4>Project name: MedRay Diagnostic</h4>
+              <h4>Project name: MedRay Diagnostic Center</h4>
               <p>Project Details: MedRay</p>
-              <Button>See Details</Button>
+              <div className="link-att">
+                <Button outline="info">Github Link</Button>
+                <Button>Live Link</Button>
+              </div>
             </div>
           </Col>
         </Row>

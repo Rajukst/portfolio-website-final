@@ -14,7 +14,7 @@ const Contact = () => {
       timer: 2500,
     });
     emailjs
-      .sendForm(
+      .send(
         "service_hr4nih9",
         "template_pl3t802",
         e.target,
@@ -52,7 +52,7 @@ const Contact = () => {
                 <label for="fname">Email Address:</label>
                 <input
                   className="dark"
-                  type="text"
+                  type="email"
                   id="fname"
                   name="user_email"
                   required
@@ -69,9 +69,8 @@ const Contact = () => {
                   required
                 ></textarea>
               </div>
-
               <Button type="submit" className="my-5">
-                Sumbit your Opinion
+                Submit your Opinion
               </Button>
             </Form>
           </Col>

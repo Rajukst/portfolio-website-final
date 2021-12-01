@@ -14,12 +14,16 @@
     background-color: black;
     color: white;
     height: 50px;
-    border-radius: 25px;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-left: 30px;
 }
 .my-dark {
     background-color: black;
     color: white; 
-    border-radius: 25px;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-left: 30px;
 }
 .social-response{
     text-align: left;

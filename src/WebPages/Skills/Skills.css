@@ -9,3 +9,8 @@
 .alignment{
     text-align: left;
 }
+
+.banneres:hover{
+    background-image: linear-gradient(#f0f8ff77, #6494ed9d);
+   
+}

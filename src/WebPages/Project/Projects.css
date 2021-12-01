@@ -5,3 +5,7 @@
 .project{
     text-align: left;
 }
+.link-att{
+    display: flex;
+    justify-content: space-between;
+}
