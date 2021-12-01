@@ -3,6 +3,16 @@ import { Col, Container, Form, Row, Button } from "react-bootstrap";
 import "./Contact.css";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebook,
+  faGithub,
+  faLinkedin,
+  faLinkedinIn,
+  faSkype,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 const Contact = () => {
   const hanldeOnSubmit = (e) => {
     e.preventDefault();
@@ -31,13 +41,58 @@ const Contact = () => {
           <Col xs={12} md={4} lg={4} className="side pe-5">
             <div className="social-response">
               <h1>Social Response</h1>
-              <h6>Not Interested submit form? I am also Avaiable here.</h6>
-              <p>rajuahamedkst15@gmail.com</p>
-              <p>rajuahamedkst13@gmail.com</p>
+              <h6>
+                Not Interested submit form? I am also Avaiable <br /> at.
+              </h6>
+              <div className="for-fontaswame mb-5">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100006529598078"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon
+                    className="facebook"
+                    icon={faFacebook}
+                    size="4x"
+                  />
+                </a>
+                <a href="https://github.com/Rajukst" target="_blank">
+                  <FontAwesomeIcon
+                    className="github"
+                    icon={faGithub}
+                    size="4x"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/rajuahamedkst"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon
+                    className="linkedin"
+                    icon={faLinkedin}
+                    size="4x"
+                  />
+                </a>
+
+                <a href="https://web.whatsapp.com/" target="_blank">
+                  <FontAwesomeIcon
+                    className="whatsapp"
+                    icon={faWhatsapp}
+                    size="4x"
+                  />
+                </a>
+
+                <a href="https://www.w3schools.com" target="_blank">
+                  <FontAwesomeIcon className="skype" icon={faSkype} size="4x" />
+                </a>
+              </div>
             </div>
           </Col>
           <Col xs={12} md={8} lg={8} className="side px-3">
             <Form onSubmit={hanldeOnSubmit} className="my-form">
+              <h3>
+                If you have any kind of support or feedback, then fillup this
+                form and submit it.
+              </h3>
               <div className="form-div">
                 <label for="fname">Your Name:</label>
                 <input

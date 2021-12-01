@@ -4,6 +4,7 @@ import "./Projects.css";
 import project1 from "../../Images/Project-Image/project1.png";
 import project2 from "../../Images/Project-Image/project2.png";
 import project3 from "../../Images/Project-Image/project3.png";
+import { Typewriter } from "react-simple-typewriter";
 const Project = () => {
   return (
     <div id="projects" className="project-main">
@@ -29,9 +30,61 @@ const Project = () => {
                 and manage all users order. <br />• It is a SPA (Single Page
                 Application), responsive and user friendly.
               </p>
+              <h6
+                className="mb-3"
+                style={{
+                  margin: "auto 0",
+                  fontWeight: "normal",
+                }}
+              >
+                Used Technology:{" "}
+                <span style={{ color: "Red", fontWeight: "bold" }}>
+                  {/* Style will be inherited from the parent element */}
+                  <Typewriter
+                    words={[
+                      "HTML",
+                      "CSS",
+                      "React-bootstrap",
+                      "React.js",
+                      "Express.js",
+                      "Mongodb",
+                      "Firebase Authentication",
+                      "Netlify",
+                    ]}
+                    loop
+                    cursor
+                    cursorStyle="_"
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                  />
+                </span>
+              </h6>
               <div className="link-att">
-                <Button variant="outline-warning">Github Link</Button>
-                <Button variant="outline-warning">Live Link</Button>
+                <a
+                  className="anchor-tag"
+                  href="https://github.com/Rajukst/modhurima-woodcraft-client-updated"
+                  target="_blank"
+                >
+                  <Button variant="outline-warning">Github Client</Button>
+                </a>
+
+                <a
+                  className="anchor-tag"
+                  href="https://github.com/Rajukst/modhurima-woodcraft-server-updated"
+                  target="_blank"
+                >
+                  {" "}
+                  <Button variant="outline-warning">Github Server</Button>
+                </a>
+
+                <a
+                  className="anchor-tag"
+                  href="https://tender-brown-ba79d4.netlify.app/"
+                  target="_blank"
+                >
+                  <Button variant="outline-warning">Live Link</Button>
+                </a>
               </div>
             </div>
           </Col>
@@ -55,9 +108,61 @@ const Project = () => {
                 <br />• It is a SPA (Single Page Application), responsive. User
                 can use it on mobile, tablet or large Device.
               </p>
+              <h6
+                className="mb-3"
+                style={{
+                  margin: "auto 0",
+                  fontWeight: "normal",
+                }}
+              >
+                Used Technology:{" "}
+                <span style={{ color: "yellow", fontWeight: "bold" }}>
+                  {/* Style will be inherited from the parent element */}
+                  <Typewriter
+                    words={[
+                      "HTML",
+                      "CSS",
+                      "React-bootstrap",
+                      "React.js",
+                      "Express.js",
+                      "Mongodb",
+                      "Firebase Authentication",
+                      "Netlify",
+                    ]}
+                    loop
+                    cursor
+                    cursorStyle="_"
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                  />
+                </span>
+              </h6>
               <div className="link-att">
-                <Button variant="outline-warning">Github Link</Button>
-                <Button variant="outline-warning">Live Link</Button>
+                <a
+                  className="anchor-tag"
+                  href="https://github.com/Rajukst/Adventure-tourist-client-updated"
+                  target="_blank"
+                >
+                  {" "}
+                  <Button variant="outline-warning">Github Client</Button>
+                </a>
+
+                <a
+                  className="anchor-tag"
+                  href="https://github.com/Rajukst/adventure-tourist-server-updated"
+                  target="_blank"
+                >
+                  <Button variant="outline-warning">Github Server</Button>
+                </a>
+
+                <a
+                  className="anchor-tag"
+                  href="https://eager-bohr-85ea3b.netlify.app/"
+                  target="_blank"
+                >
+                  <Button variant="outline-warning">Live Link</Button>
+                </a>
               </div>
             </div>
           </Col>
@@ -82,9 +187,49 @@ const Project = () => {
                 <br />• It is mobile responsive. User can use it on mobile,
                 tablet or large Device.
               </p>
+              <h6
+                className="mb-3"
+                style={{
+                  margin: "auto 0",
+                  fontWeight: "normal",
+                }}
+              >
+                Used Technology:{" "}
+                <span style={{ color: "Aqua", fontWeight: "bold" }}>
+                  {/* Style will be inherited from the parent element */}
+                  <Typewriter
+                    words={[
+                      "HTML",
+                      "CSS",
+                      "React-bootstrap",
+                      "React.js",
+                      "Firebase Authentication",
+                      "Netlify",
+                    ]}
+                    loop
+                    cursor
+                    cursorStyle="_"
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                  />
+                </span>
+              </h6>
               <div className="link-att">
-                <Button variant="outline-warning">Github Link</Button>
-                <Button variant="outline-warning">Live Link</Button>
+                <a
+                  className="anchor-tag"
+                  href="https://github.com/Rajukst/medray-diagnostic-updated"
+                  target="_blank"
+                >
+                  <Button variant="outline-warning">Github Link</Button>
+                </a>
+                <a
+                  className="anchor-tag"
+                  href="https://kind-heyrovsky-f144ce.netlify.app/"
+                  target="_blank"
+                >
+                  <Button variant="outline-warning">Live Link</Button>
+                </a>
               </div>
             </div>
           </Col>

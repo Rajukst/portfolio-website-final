@@ -28,3 +28,23 @@
 .social-response{
     text-align: left;
 }
+.for-fontaswame{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50%;
+}
+.facebook{
+    color: #3B5998;
+}
+.linkedin{
+    color: #00a0dc;
+}
+.whatsapp{
+    color: #25D366;
+}
+.skype{
+color: #00aff0;
+}
+.github{
+    color: #171515;
+}

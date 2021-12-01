@@ -3,6 +3,7 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import "./TopBanner.css";
 import bannerImage from "../../Images/banner.png";
 import { Typewriter } from "react-simple-typewriter";
+import { Link } from "react-router-dom";
 const TopBanner = () => {
   return (
     <div className="top-banner">
@@ -41,14 +42,16 @@ const TopBanner = () => {
                     />
                   </span>
                 </h1>
-                <a
+                <Link
                   className="very-important"
-                  href="https://drive.google.com/file/d/1-jFkUED-6vp3cu7xCvMe5yyykxz9dksS/view?usp=sharing"
+                  to="/Raju Ahammed Roton_Jr Web Developer_Resume.pdf"
                   target="_blank"
+                  download
                 >
-                  {" "}
-                  <Button className="mt-5">Download Resume</Button>
-                </a>
+                  <Button variant="outline-info" className="mt-5">
+                    Download Resume
+                  </Button>
+                </Link>
               </div>
             </Col>
             <Col xs={12} md={6} className=" my-5">
