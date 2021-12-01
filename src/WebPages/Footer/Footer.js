@@ -17,7 +17,8 @@ const Footer = () => {
             words={[
               "For any Query: rajuahamedkst15@gmail.com",
               "Phone: +8801765629262",
-              "LinkedIn:https://www.linkedin.com/in/rajuahamedkst",
+              "linkedin.com/in/rajuahamedkst",
+              "Developer Mode ON",
             ]}
             loop
             cursor
