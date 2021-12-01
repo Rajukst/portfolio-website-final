@@ -42,7 +42,7 @@ const Contact = () => {
             <div className="social-response">
               <h1>Social Response</h1>
               <h6>
-                Not Interested submit form? I am also Avaiable <br /> at.
+                Not Interested submit form? I am also Avaiable <br /> here.
               </h6>
               <div className="for-fontaswame mb-5">
                 <a

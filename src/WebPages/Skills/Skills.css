@@ -12,5 +12,7 @@
 
 .banneres:hover{
     background-image: linear-gradient(#f0f8ff77, #6494ed9d);
+    transform: scale(1.2);
+    transition: transform 4s ease-out;
    
 }
