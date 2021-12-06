@@ -12,8 +12,4 @@
 .anchor-tag:hover:after{
     width: 0;
  }
- .project:hover{
-    /* background-image: linear-gradient(#f0f8ff77, #6494ed9d); */
-    transform: scale(1.05);
-    transition: transform 2s ;
- }
+ 

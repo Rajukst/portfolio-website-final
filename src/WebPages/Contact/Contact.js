@@ -4,7 +4,7 @@ import "./Contact.css";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+
 import {
   faFacebook,
   faGithub,
