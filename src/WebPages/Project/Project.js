@@ -13,7 +13,7 @@ const Project = () => {
       <Container>
         <Row>
           <Col xs={12} md={6} lg={4} className="project-side">
-            <AnimationWrapper>
+            <AnimationWrapper style={{ opacity: false }}>
               <div className="m-2 project">
                 <div className="img">
                   <img
@@ -92,7 +92,7 @@ const Project = () => {
             </AnimationWrapper>
           </Col>
           <Col xs={12} md={6} lg={4} className="project-side">
-            <AnimationWrapper>
+            <AnimationWrapper style={{ opacity: false }}>
               <div className="m-2 project">
                 <div className="img">
                   <img
@@ -172,7 +172,7 @@ const Project = () => {
             </AnimationWrapper>
           </Col>
           <Col xs={12} md={6} lg={4} className="project-side">
-            <AnimationWrapper>
+            <AnimationWrapper style={{ opacity: false }}>
               <div className="m-2 project">
                 <div className="img">
                   <img
